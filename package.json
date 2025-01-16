@@ -1,0 +1,24 @@
+{
+  "name": "3d_paper_model_platform",
+  "version": "1.0.0",
+  "description": "A web platform for 3D Paper Models",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vibrant-arrow/3D_Paper_Model_Platform.git"
+  },
+  "author": "Vem Aiensi Marasigan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vibrant-arrow/3D_Paper_Model_Platform/issues"
+  },
+  "homepage": "https://github.com/vibrant-arrow/3D_Paper_Model_Platform#readme",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.2"
+  }
+}

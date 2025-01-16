@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Helvetica'), url('./assets/fonts/Helvetica/Helvetica.woff') format('woff');
+}
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    src: url('./assets/fonts/Inter/Inter_18pt-Regular.ttf') format('truetype');
+}
+
+html, body{
+    margin:0;
+    padding:0;
+    font-family: 'Inter';
+    box-sizing: border-box;
+    background-image: url("./assets/triangles-1430105.svg");
+    background-color: rgba(255, 255, 255, 0.7);
+    background-blend-mode: lighten;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+nav{
+    background-color: white;
+    font-family: 'Inter';
+    font-size: 1rem;
+    
+    padding: 20px;
+    border-bottom: 2px solid gray;
+}
+.nav-container, .main-container{
+    max-width: 1500px;
+    display: flex;
+    margin: auto;
+}
+.logo{
+    width: 2rem;
+    height: 2rem;
+}
+.nav-title{
+    display:flex;
+    flex-direction: column;
+}
+.nav-title span:first-child{
+    font-size: 1.5rem;
+}
+.nav-title span:last-child{
+    font-size: 0.5rem;
+}
+.main-container{
+    max-width: 1500px;
+}
