@@ -1,0 +1,27 @@
+nav{
+    background-color: white;
+    font-family: 'Inter';
+    font-size: 1rem;
+    
+    padding: 20px;
+    border-bottom: 2px solid gray;
+  }
+  .nav-container, .main-container{
+    max-width: 1500px;
+    display: flex;
+    margin: auto;
+  }
+  .logo{
+    width: 2rem;
+    height: 2rem;
+  }
+  .nav-title{
+    display:flex;
+    flex-direction: column;
+  }
+  .nav-title span:first-child{
+    font-size: 1.5rem;
+  }
+  .nav-title span:last-child{
+    font-size: 0.5rem;
+  }
